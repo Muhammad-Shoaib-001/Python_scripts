@@ -1,0 +1,17 @@
+{
+    "settings" : {
+    "max_attempt" : "3",
+    "retry_delays" : "2",
+    "log_file" : "D:\\PY\\log.txt"
+    }
+,
+
+
+    "services" : [
+        "nginx",
+        "mysql",
+        "redis",
+        "kafka",
+        "grafana"
+    ]
+}

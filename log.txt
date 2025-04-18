@@ -1,0 +1,38 @@
+[2025-04-13 22:34:41] Checking service: nginx
+[2025-04-13 22:34:41] Attempt 1 for nginx
+[2025-04-13 22:34:41] nginx is UP on attempt 1
+[2025-04-13 22:34:41] Checking service: mysql
+[2025-04-13 22:34:41] Attempt 1 for mysql
+[2025-04-13 22:34:41] mysql is UP on attempt 1
+[2025-04-13 22:34:41] Checking service: redis
+[2025-04-13 22:34:41] Attempt 1 for redis
+[2025-04-13 22:34:41] redis is still DOWN.
+[2025-04-13 22:34:42] Attempt 2 for redis
+[2025-04-13 22:34:42] redis is still DOWN.
+[2025-04-13 22:34:43] Attempt 3 for redis
+[2025-04-13 22:34:43] redis is UP on attempt 3
+[2025-04-13 22:34:43] Checking service: kafka
+[2025-04-13 22:34:43] Attempt 1 for kafka
+[2025-04-13 22:34:43] kafka is UP on attempt 1
+[2025-04-13 22:34:43] Checking service: prometheus
+[2025-04-13 22:34:43] Attempt 1 for prometheus
+[2025-04-13 22:34:43] prometheus is UP on attempt 1
+[2025-04-13 22:34:43] All services are UP. Proceeding with deployment.
+[15-04-2025 13:33:28] Checking service: nginx
+[15-04-2025 13:33:28] nginx is still DOWN.
+[15-04-2025 13:33:29] nginx is still DOWN.
+[15-04-2025 13:33:30] nginx is UP on attempt 3
+[15-04-2025 13:33:30] Checking service: mysql
+[15-04-2025 13:33:30] mysql is UP on attempt 1
+[15-04-2025 13:33:30] Checking service: redis
+[15-04-2025 13:33:30] redis is still DOWN.
+[15-04-2025 13:33:31] redis is UP on attempt 2
+[15-04-2025 13:33:31] Checking service: kafka
+[15-04-2025 13:33:31] kafka is still DOWN.
+[15-04-2025 13:33:32] kafka is still DOWN.
+[15-04-2025 13:33:33] kafka is still DOWN.
+[15-04-2025 13:33:34] kafka failed after 3 attempts.
+[15-04-2025 13:33:34] Checking service: grafana
+[15-04-2025 13:33:34] grafana is still DOWN.
+[15-04-2025 13:33:35] grafana is UP on attempt 2
+[15-04-2025 13:33:35] Deployment blocked due to failed services.

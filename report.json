@@ -1,0 +1,14 @@
+{
+    "summary": {
+        "checked": 5,
+        "up": 3,
+        "Down": 2
+    },
+    "results": {
+        "nginx": "Up",
+        "mysql": "Down",
+        "redis": "Down",
+        "kafka": "Up",
+        "grafana": "Up"
+    }
+}
