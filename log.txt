@@ -1,38 +1,147 @@
-[2025-04-13 22:34:41] Checking service: nginx
-[2025-04-13 22:34:41] Attempt 1 for nginx
-[2025-04-13 22:34:41] nginx is UP on attempt 1
-[2025-04-13 22:34:41] Checking service: mysql
-[2025-04-13 22:34:41] Attempt 1 for mysql
-[2025-04-13 22:34:41] mysql is UP on attempt 1
-[2025-04-13 22:34:41] Checking service: redis
-[2025-04-13 22:34:41] Attempt 1 for redis
-[2025-04-13 22:34:41] redis is still DOWN.
-[2025-04-13 22:34:42] Attempt 2 for redis
-[2025-04-13 22:34:42] redis is still DOWN.
-[2025-04-13 22:34:43] Attempt 3 for redis
-[2025-04-13 22:34:43] redis is UP on attempt 3
-[2025-04-13 22:34:43] Checking service: kafka
-[2025-04-13 22:34:43] Attempt 1 for kafka
-[2025-04-13 22:34:43] kafka is UP on attempt 1
-[2025-04-13 22:34:43] Checking service: prometheus
-[2025-04-13 22:34:43] Attempt 1 for prometheus
-[2025-04-13 22:34:43] prometheus is UP on attempt 1
-[2025-04-13 22:34:43] All services are UP. Proceeding with deployment.
-[15-04-2025 13:33:28] Checking service: nginx
-[15-04-2025 13:33:28] nginx is still DOWN.
-[15-04-2025 13:33:29] nginx is still DOWN.
-[15-04-2025 13:33:30] nginx is UP on attempt 3
-[15-04-2025 13:33:30] Checking service: mysql
-[15-04-2025 13:33:30] mysql is UP on attempt 1
-[15-04-2025 13:33:30] Checking service: redis
-[15-04-2025 13:33:30] redis is still DOWN.
-[15-04-2025 13:33:31] redis is UP on attempt 2
-[15-04-2025 13:33:31] Checking service: kafka
-[15-04-2025 13:33:31] kafka is still DOWN.
-[15-04-2025 13:33:32] kafka is still DOWN.
-[15-04-2025 13:33:33] kafka is still DOWN.
-[15-04-2025 13:33:34] kafka failed after 3 attempts.
-[15-04-2025 13:33:34] Checking service: grafana
-[15-04-2025 13:33:34] grafana is still DOWN.
-[15-04-2025 13:33:35] grafana is UP on attempt 2
-[15-04-2025 13:33:35] Deployment blocked due to failed services.
+2025-04-19 01:38:42 | ERROR: Service started
+2025-04-19 01:38:43 | WARNING: Service started
+2025-04-19 01:38:44 | DEBUG: Service crashed
+2025-04-19 01:38:45 | WARNING: Service started
+2025-04-19 01:38:46 | ERROR: Unauthorized access detected
+2025-04-19 01:38:47 | DEBUG: Service started
+2025-04-19 01:38:48 | ERROR: Service started
+2025-04-19 01:38:49 | ERROR: Service started
+2025-04-19 01:38:50 | DEBUG: Service crashed
+2025-04-19 01:38:51 | WARNING: Service crashed
+2025-04-19 01:38:52 | CRITICAL: Service started
+2025-04-19 01:38:53 | CRITICAL: Unauthorized access detected
+2025-04-19 01:38:54 | CRITICAL: Retrying connection
+2025-04-19 01:38:55 | DEBUG: Unauthorized access detected
+2025-04-19 01:38:56 | WARNING: Service started
+2025-04-19 01:38:57 | CRITICAL: Service crashed
+2025-04-19 01:38:58 | DEBUG: Service started
+2025-04-19 01:38:59 | DEBUG: Unauthorized access detected
+2025-04-19 01:39:00 | DEBUG: Low memory
+2025-04-19 01:39:01 | ERROR: Unauthorized access detected
+2025-04-19 01:39:02 | ERROR: Retrying connection
+2025-04-19 01:39:03 | ERROR: Connection successful
+2025-04-19 01:39:04 | DEBUG: Service started
+2025-04-19 01:39:41 | CRITICAL: Retrying connection
+2025-04-19 01:39:42 | CRITICAL: Retrying connection
+2025-04-19 01:39:43 | INFO: Service started
+2025-04-19 01:39:44 | INFO: Retrying connection
+2025-04-19 01:39:45 | WARNING: Connection successful
+2025-04-19 01:39:46 | INFO: Retrying connection
+2025-04-19 01:39:47 | WARNING: Low memory
+2025-04-19 01:39:48 | ERROR: Connection successful
+2025-04-19 01:39:49 | INFO: Retrying connection
+2025-04-19 01:39:50 | DEBUG: Unauthorized access detected
+2025-04-19 01:39:51 | ERROR: Service started
+2025-04-19 01:39:52 | INFO: Low memory
+2025-04-19 01:39:53 | WARNING: Unauthorized access detected
+2025-04-19 01:39:54 | WARNING: Low memory
+2025-04-19 01:39:55 | CRITICAL: Service started
+2025-04-19 01:39:56 | CRITICAL: Retrying connection
+2025-04-19 01:39:57 | WARNING: Unauthorized access detected
+2025-04-19 01:39:58 | ERROR: Retrying connection
+2025-04-19 01:39:59 | INFO: Service started
+2025-04-19 01:40:00 | WARNING: Unauthorized access detected
+2025-04-19 01:40:01 | WARNING: Service started
+2025-04-19 01:40:02 | DEBUG: Retrying connection
+2025-04-19 01:40:03 | WARNING: Unauthorized access detected
+2025-04-19 01:40:04 | DEBUG: Connection successful
+2025-04-19 01:40:05 | CRITICAL: Unauthorized access detected
+2025-04-19 01:40:06 | WARNING: Service started
+2025-04-19 01:40:07 | ERROR: Service started
+2025-04-19 01:40:08 | INFO: Service started
+2025-04-19 01:40:09 | WARNING: Low memory
+2025-04-19 01:40:10 | DEBUG: Retrying connection
+2025-04-19 01:40:11 | WARNING: Connection successful
+2025-04-19 01:40:12 | ERROR: Low memory
+2025-04-19 01:40:13 | ERROR: Unauthorized access detected
+2025-04-19 01:40:14 | ERROR: Unauthorized access detected
+2025-04-19 01:40:15 | WARNING: Retrying connection
+2025-04-19 01:40:16 | INFO: Retrying connection
+2025-04-19 01:40:17 | DEBUG: Low memory
+2025-04-19 01:40:18 | WARNING: Retrying connection
+2025-04-19 01:40:19 | WARNING: Connection successful
+2025-04-19 01:40:20 | CRITICAL: Service crashed
+2025-04-19 01:40:21 | DEBUG: Low memory
+2025-04-19 01:40:22 | DEBUG: Low memory
+2025-04-19 01:40:23 | CRITICAL: Service crashed
+2025-04-19 01:40:24 | WARNING: Service crashed
+2025-04-19 01:40:25 | DEBUG: Low memory
+2025-04-19 01:40:26 | WARNING: Retrying connection
+2025-04-19 01:40:27 | DEBUG: Retrying connection
+2025-04-19 01:40:28 | INFO: Low memory
+2025-04-19 01:40:29 | DEBUG: Low memory
+2025-04-19 01:40:30 | INFO: Low memory
+2025-04-19 01:40:31 | INFO: Unauthorized access detected
+2025-04-19 01:40:32 | DEBUG: Connection successful
+2025-04-19 01:40:33 | DEBUG: Service started
+2025-04-19 01:40:34 | INFO: Unauthorized access detected
+2025-04-19 01:40:35 | INFO: Unauthorized access detected
+2025-04-19 01:40:36 | WARNING: Connection successful
+2025-04-19 01:40:37 | WARNING: Service started
+2025-04-19 01:40:38 | CRITICAL: Low memory
+2025-04-19 01:40:39 | DEBUG: Low memory
+2025-04-19 01:40:40 | CRITICAL: Service crashed
+2025-04-19 01:40:41 | DEBUG: Retrying connection
+2025-04-19 01:40:42 | INFO: Unauthorized access detected
+2025-04-19 01:40:43 | ERROR: Low memory
+2025-04-19 01:40:44 | ERROR: Retrying connection
+2025-04-19 01:40:45 | CRITICAL: Service crashed
+2025-04-19 01:40:46 | CRITICAL: Low memory
+2025-04-19 01:40:47 | CRITICAL: Unauthorized access detected
+2025-04-19 01:40:48 | ERROR: Low memory
+2025-04-19 01:40:49 | DEBUG: Service started
+2025-04-19 01:40:50 | WARNING: Low memory
+2025-04-19 01:40:51 | DEBUG: Connection successful
+2025-04-19 01:40:52 | INFO: Connection successful
+2025-04-19 01:40:53 | CRITICAL: Service crashed
+2025-04-19 01:40:54 | CRITICAL: Retrying connection
+2025-04-19 01:40:55 | CRITICAL: Low memory
+2025-04-19 01:40:56 | DEBUG: Low memory
+2025-04-19 01:40:57 | CRITICAL: Service started
+2025-04-19 01:40:58 | INFO: Service started
+2025-04-19 01:40:59 | CRITICAL: Service crashed
+2025-04-19 01:41:00 | INFO: Connection successful
+2025-04-19 01:41:01 | INFO: Low memory
+2025-04-19 01:41:02 | ERROR: Service crashed
+2025-04-19 01:41:03 | ERROR: Low memory
+2025-04-19 01:41:04 | DEBUG: Connection successful
+2025-04-19 01:41:05 | ERROR: Service crashed
+2025-04-19 01:41:06 | INFO: Connection successful
+2025-04-19 01:41:07 | ERROR: Service crashed
+2025-04-19 01:41:08 | CRITICAL: Retrying connection
+2025-04-19 01:41:09 | WARNING: Retrying connection
+2025-04-19 01:41:11 | INFO: Service started
+2025-04-19 01:41:12 | ERROR: Connection successful
+2025-04-19 01:41:13 | WARNING: Service started
+2025-04-19 01:41:14 | WARNING: Service started
+2025-04-19 01:41:15 | CRITICAL: Low memory
+2025-04-19 01:41:16 | ERROR: Unauthorized access detected
+2025-04-19 01:41:17 | INFO: Service started
+2025-04-19 01:41:18 | INFO: Service started
+2025-04-19 01:41:19 | ERROR: Low memory
+2025-04-19 01:41:20 | DEBUG: Service started
+2025-04-19 01:41:21 | ERROR: Low memory
+2025-04-19 01:41:22 | ERROR: Service crashed
+2025-04-19 01:41:23 | DEBUG: Connection successful
+2025-04-19 01:41:24 | INFO: Low memory
+2025-04-19 01:41:25 | WARNING: Retrying connection
+2025-04-19 01:41:26 | INFO: Service started
+2025-04-19 01:41:27 | INFO: Connection successful
+2025-04-19 01:41:28 | ERROR: Service started
+2025-04-19 01:41:29 | WARNING: Retrying connection
+2025-04-19 01:41:30 | DEBUG: Retrying connection
+2025-04-19 01:41:31 | ERROR: Connection successful
+2025-04-19 01:41:32 | CRITICAL: Unauthorized access detected
+2025-04-19 01:41:33 | DEBUG: Retrying connection
+2025-04-19 01:41:34 | WARNING: Service started
+2025-04-19 01:41:35 | WARNING: Connection successful
+2025-04-19 01:41:36 | INFO: Low memory
+2025-04-19 01:41:37 | DEBUG: Service started
+2025-04-19 01:41:38 | DEBUG: Unauthorized access detected
+2025-04-19 01:41:39 | INFO: Service crashed
+2025-04-19 01:41:40 | WARNING: Retrying connection
+2025-04-19 01:41:41 | CRITICAL: Unauthorized access detected
+2025-04-19 01:41:42 | DEBUG: Retrying connection
+2025-04-19 01:41:43 | CRITICAL: Service started
+2025-04-19 01:41:44 | CRITICAL: Unauthorized access detected
+2025-04-19 01:41:45 | CRITICAL: Service crashed
